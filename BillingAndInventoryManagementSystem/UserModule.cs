@@ -17,14 +17,16 @@ namespace BillingAndInventoryManagementSystem
 
         public void WriteFile()
         {
-            FileStream fileStreamObj = new FileStream(@"C:\Users\iamte\source\repos\BillingAndInventoryManagementSystem\usersFile.txt", FileMode.Create, FileAccess.Write);
+            FileStream fileStreamObj = new FileStream(@"C:\Users\iamte\source\repos\BillingAndInventoryManagementSystem\usersFile.txt", FileMode.Append, FileAccess.Write);
             StreamWriter streamWriterObj = new StreamWriter(fileStreamObj);
 
-            int i = 1;
+            int counter = 1,totalUsers;
+            Console.WriteLine("Enter total number Of Users Module records you want to store");
+            totalUsers = Convert.ToInt32(Console.ReadLine());
             streamWriterObj.WriteLine("FName\tLName\tId\tPhone\tEmail");
-            while (i <= 5)
+            while (counter <= totalUsers)
             {
-                Console.WriteLine("Enter user "+i+" first name");
+                Console.WriteLine("Enter user "+counter +" first name");
                 fName = Console.ReadLine();
                 streamWriterObj.Write(fName + "\t");
 
@@ -43,12 +45,15 @@ namespace BillingAndInventoryManagementSystem
                 Console.WriteLine("Enter users email");
                 email = Console.ReadLine();
                 streamWriterObj.WriteLine(email);
-                i++;
+                counter++;
+                Console.WriteLine();
 
             }
             streamWriterObj.Close();
             fileStreamObj.Close();
             Console.WriteLine("File write operation completed");
+
+            Console.WriteLine();
 
         }
     }

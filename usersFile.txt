@@ -1,6 +1,6 @@
 FName	LName	Id	Phone	Email
-Hemant	Tiwari	1	3123	heman@
-salman	khan	2	321	sal@
-katrina	kaif	3	312	kat@
-simran	sharma	5	3213	sim@
-rahul	rawat	6	312	rahul@
+Virat	Kohli	1	1111	virat@
+Salman	Khan	2	3212	sal@
+katrina	kaif	3	4342	kat@
+Hemant	Tiwari	6	4234	hemu@
+Rahul	Rwt	3	2342	r@

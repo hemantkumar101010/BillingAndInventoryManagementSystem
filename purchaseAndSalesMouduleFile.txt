@@ -1,2 +1,1 @@
 SalesId 	 Productid	price	salesdate
-1		2		999	19-05-2022

@@ -10,14 +10,17 @@ namespace BillingAndInventoryManagementSystem
     {
         static void Main(string[] args)
         {
-            //UserModule userModuleObj = new UserModule();
-            //userModuleObj.WriteFile();
+            UserModule userModuleObj = new UserModule();
+            userModuleObj.WriteFile();
+            Console.WriteLine();
 
-            //CategoryModule categoryModuleObj = new CategoryModule();
-            //categoryModuleObj.WriteFile();
+            CategoryModule categoryModuleObj = new CategoryModule();
+            categoryModuleObj.WriteFile();
+            Console.WriteLine();
 
-            //ProductModule productModuleObj = new ProductModule();
-            //productModuleObj.WriteFile();
+            ProductModule productModuleObj = new ProductModule();
+            productModuleObj.WriteFile();
+            Console.WriteLine();
 
             PurchaseAndSalesMoudule purchaseAndSalesMouduleObj = new PurchaseAndSalesMoudule();
             purchaseAndSalesMouduleObj.WriteFile();
