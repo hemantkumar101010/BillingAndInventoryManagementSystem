@@ -1,0 +1,6 @@
+FName	LName	Id	Phone	Email
+Hemant	Tiwari	1	3123	heman@
+salman	khan	2	321	sal@
+katrina	kaif	3	312	kat@
+simran	sharma	5	3213	sim@
+rahul	rawat	6	312	rahul@

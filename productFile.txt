@@ -1,0 +1,2 @@
+Productid	categorytype	 productname	Pquantity	price
+1		Mobile acessseries	EarPhone	100	5999

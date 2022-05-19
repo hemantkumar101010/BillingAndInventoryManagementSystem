@@ -1,0 +1,2 @@
+CategoryId	CategoryType
+1		Electronics
